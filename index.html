@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ailton Couto — Portfólio Nexa</title>
+<meta name="description" content="Portfólio de Ailton Couto: o Nexa, um sistema de atendimento comercial no WhatsApp dirigido por IA, e a presença pública no Instagram e LinkedIn.">
+<style>
+:root{--bg:#0b1f3a;--bg2:#14305a;--card:#ffffff12;--line:#ffffff22;--ink:#e8f0fb;--mut:#9fb8da;--gold:#f2b134;--green:#1fb36b}
+@media (prefers-color-scheme:light){:root{--bg:#f4f7fc;--bg2:#e3ecf8;--card:#ffffff;--line:#d3deee;--ink:#0b1f3a;--mut:#4a6285;--gold:#b97800;--green:#117a48}}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Segoe UI",system-ui,Arial,sans-serif;background:linear-gradient(160deg,var(--bg),var(--bg2));background-attachment:fixed;color:var(--ink);line-height:1.55}
+main{max-width:860px;margin:0 auto;padding:40px 18px 70px}
+h1{font-size:clamp(30px,6vw,46px);line-height:1.1;margin:0 0 10px}
+h1 em{font-style:normal;color:var(--gold)}
+h2{font-size:22px;margin:44px 0 14px;padding-top:6px;border-top:1px solid var(--line)}
+h3{margin:0 0 6px;font-size:18px}
+p{margin:0 0 12px}
+.lead{font-size:18px;color:var(--mut);max-width:680px}
+.tag{display:inline-block;font-size:12px;letter-spacing:.08em;font-weight:700;color:var(--gold);margin-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.num{font-size:34px;font-weight:800;color:var(--gold);line-height:1}
+.mut{color:var(--mut);font-size:14px}
+ul{padding-left:20px;margin:0 0 10px}li{margin:4px 0}
+.col2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.btn{display:inline-block;margin:6px 8px 0 0;padding:11px 18px;border-radius:10px;background:var(--green);color:#fff;text-decoration:none;font-weight:700}
+.btn.o{background:transparent;border:1px solid var(--line);color:var(--ink)}
+.nota{font-size:13px;color:var(--mut);margin-top:30px}
+</style>
+</head>
+<body>
+<main>
+<span class="tag">PORTFÓLIO</span>
+<h1>Ailton Couto<br><em>Vendas + agentes de IA</em></h1>
+<p class="lead">Fundador não técnico que dirige a IA como dirige um time comercial: define a estratégia, explica sem ambiguidade, revisa e decide. A parte técnica é construída por agentes de IA. O resultado é o Nexa, um sistema real, em produção, no WhatsApp.</p>
+<a class="btn" href="https://www.instagram.com/ailton.agenteia/">Instagram @ailton.agenteia</a>
+<a class="btn o" href="https://www.linkedin.com/in/ailton-couto-169b74207">LinkedIn</a>
+
+<h2>O que é o Nexa</h2>
+<p>Sistema de atendimento comercial via WhatsApp, conduzido por inteligência artificial, que roda várias operações de negócio ao mesmo tempo (os "braços"). Hoje são telecom B2B, segurança eletrônica e imobiliária, todos sobre o mesmo motor técnico. Está em operação real desde agosto de 2026.</p>
+<div class="grid">
+ <div class="card"><div class="num">5</div><div class="mut">operações de negócio sobre o mesmo motor</div></div>
+ <div class="card"><div class="num">17,6 mi</div><div class="mut">empresas na base pública de CNPJ usada para confirmar que a empresa existe</div></div>
+ <div class="card"><div class="num">0</div><div class="mut">linhas de código escritas por mim: a execução técnica é da IA</div></div>
+</div>
+
+<h2>Como funciona</h2>
+<div class="col2">
+ <div class="card"><h3>Motor único de conversa</h3><p class="mut">Um só "cérebro" atende todos os braços. Cada braço muda só a configuração e o roteiro de conversa. O código central não muda por negócio.</p></div>
+ <div class="card"><h3>IA que responde na hora</h3><p class="mut">Claude (Anthropic) decide turno a turno o que responder, seguindo o roteiro do braço, sem texto decorado e considerando o histórico.</p></div>
+ <div class="card"><h3>Verificação de empresa</h3><p class="mut">Cruzamento automático com a base pública de CNPJ da Receita Federal. Não pede documento ao lead.</p></div>
+ <div class="card"><h3>CRM próprio</h3><p class="mut">Construído do zero: funil visual (kanban), ficha do lead, histórico, tarefas com lembrete, relatórios com gráfico e PDF, acesso por operação.</p></div>
+ <div class="card"><h3>Agendamento sem conflito</h3><p class="mut">Cruza a agenda de vários especialistas e só oferece horário realmente livre.</p></div>
+ <div class="card"><h3>Disparo com segurança</h3><p class="mut">Ritmo controlado e rampa de aquecimento. Nasceu de um aprendizado real: um bloqueio de 24 h no WhatsApp em agosto virou regra permanente.</p></div>
+ <div class="card"><h3>Follow-up automático</h3><p class="mut">Quem esfria entra numa sequência de toques e retoma de onde parou se voltar a responder.</p></div>
+ <div class="card"><h3>Deploy com teste</h3><p class="mut">Na nuvem, com teste automatizado antes de cada mudança subir.</p></div>
+</div>
+
+<h2>Quem fez o quê</h2>
+<div class="col2">
+ <div class="card"><h3>Eu decido</h3><ul><li>O que cada braço vende e para quem</li><li>Como qualificar e o que é interesse real</li><li>Preço: sempre a tabela oficial, nunca estimativa</li><li>Tom de voz de cada agente</li><li>Prioridades e aprovação final de tudo que vai ao ar</li><li>Correção de rota quando uma conversa real sai do trilho</li></ul></div>
+ <div class="card"><h3>A IA executa</h3><ul><li>Todo o código: motor, CRM, relatórios, automações</li><li>Testes automatizados antes de cada mudança</li><li>Investigação de bugs</li><li>Leitura de documentação extensa para não inventar número em proposta</li><li>Memória operacional entre sessões</li><li>Relatório diário automático</li></ul></div>
+</div>
+
+<h2>Números reais</h2>
+<p class="mut">Operação principal de telecom B2B, auditada em outubro de 2026. Dados agregados, sem identificar ninguém.</p>
+<div class="grid">
+ <div class="card"><div class="num">2.229</div><div class="mut">empresas únicas na base</div></div>
+ <div class="card"><div class="num">1.226</div><div class="mut">abordadas</div></div>
+ <div class="card"><div class="num">817</div><div class="mut">responderam (cerca de 67% das abordadas)</div></div>
+ <div class="card"><div class="num">13</div><div class="mut">qualificadas</div></div>
+ <div class="card"><div class="num">5</div><div class="mut">com proposta enviada</div></div>
+ <div class="card"><div class="num">1</div><div class="mut">fechada no período auditado (operação principal)</div></div>
+ <div class="card"><div class="num">20+</div><div class="mut">negócios fechados somando todas as operações (segurança eletrônica e telecom), informado pelo fundador</div></div>
+</div>
+<p class="nota">Os seis primeiros números são do período auditado em outubro de 2026. O total de fechamentos é o acumulado informado pelo fundador, com levantamento no CRM em andamento. Os números mudam com o tempo.</p>
+
+<h2>Presença pública</h2>
+<div class="col2">
+ <div class="card"><h3>Instagram @ailton.agenteia</h3><p class="mut">Conteúdo sobre agentes de IA para pequenos negócios: reels, carrosséis e stories com fonte citada e dados fictícios sempre rotulados. A conta é conduzida com apoio de agentes de IA e todo conteúdo passa pela minha aprovação.</p></div>
+ <div class="card"><h3>LinkedIn</h3><p class="mut">Posts sobre vendas e implantação de agentes de IA, também conduzidos com apoio de IA, com minha revisão.</p></div>
+</div>
+
+<p class="nota">Documento público. Nenhum dado de cliente, lead, chave ou acesso é exibido. Atualizado em 28/10/2026.</p>
+</main>
+</body>
+</html>
